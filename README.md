@@ -9,7 +9,7 @@ Com a crescente divergência de código entre as branches na empresa em que trab
 
 Para quem ficou boiando na forma em que formato as mensagens / nomes das branches podem ser organizados, deixo aqui um exemplo para melhor esclarecimento:
 
-```bash
+```
 branches:
 [Código do Card da feature/fix]-nome-da-branch-centralizadora
 
