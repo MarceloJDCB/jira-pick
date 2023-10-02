@@ -41,8 +41,9 @@ for commit in $commits; do
 done
 echo ""
 echo "Awaiting for your confirmation to cherry-pick the commits above... [Y/N]"
-read $confirmation
-if [[ $confirmation != "Y" ]] || [[ $confirmation != "y" ]]; then
+read confirmation
+confirmation=$(echo "$confirmation" | tr '[:upper:]' '[:lower:]')
+if [[ "$confirmation" != "y" ]]; then
     echo "[STATUS] Cherry-picking aborted!"
     exit 1
 fi
