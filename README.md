@@ -3,7 +3,7 @@
 
 
 
-## Problema e como podemos tentar resolvê-lo
+## O problema e como podemos tentar resolvê-lo
 
 Com a crescente divergência de código entre as branches na empresa em que trabalho, a possibilidade de fazer merges de grandes funcionalidades/correções a partir das mesclagens está se tornando cada vez mais complicada. Percebi que as pessoas estão usando o cherry-pick com frequência para compor as branches. Tendo em mente que todas as branches/commits possuem os cards explícitos em seus nomes/comentários, pensei em uma forma de automatizar esse processo para pegar os commits de um determinado card a partir de sua branch centralizadora e aplicá-los na branch desejada.
 
