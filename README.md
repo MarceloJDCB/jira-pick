@@ -36,5 +36,5 @@ commits:
   forma:
   ```
   jira_pick:
-      bash jira_pick.bas
+      bash jira_pick.bash
     
